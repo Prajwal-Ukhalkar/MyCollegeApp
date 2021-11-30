@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GPA Stories</string>
+
+    <string name="black" tools:ignore="ReferenceType">@font/roboto_black</string>
+    <string name="bold" tools:ignore="ReferenceType">@font/roboto_bold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/roboto_light</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/roboto_regular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+    <string name="About_Collage">Pursuit For Excellence...It is my great pleasure to welcome you to Government Polytechnic, Aurangabad has a long-standing reputation in providing technical education, .Apart from academic activities, the co-curricular activites- Sports/IEDSSA, Cultural Events and Social Service activities form a vital ingredient of the students grooming leading to their holistic personality development.. Have a wonderful experience in navigation through our Application.</string>
+    <string name="email_principal_gpaurangabad_dtemaharashtra_gov_in">Email - principal.gpaurangabad@dtemaharashtra.gov.in</string>
+    <string name="Vision">To be the internationally accredited institute that contributes in the development of competent professionals and entrepreneurs on the platform of technology based systems, blended learning through highly qualified and trained staff.</string>
+    <string name="mission">To educate and train globally competent individuals, professionals, technicians and skilled human resources through world class curriculum, student centric academic system, team of committed, trained faculty and staff contributing to the students successful employment and entrepreneurship with a spirit of patriotism and concern for the environment.
+
+</string>
+    <string name="sets">Sets</string>
+
+    <string-array name="theme">
+
+        <item>System Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+
+</resources>

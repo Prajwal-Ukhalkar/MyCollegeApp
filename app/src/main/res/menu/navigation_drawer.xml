@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:ignore="ExtraText">
+
+    <item android:id="@+id/navigation_theme"
+        android:title="Start Exam"
+        android:icon="@drawable/exam"/>
+
+    <item android:id="@+id/navigation_vedio"
+        android:title="GPA Walkthrough"
+        android:icon="@drawable/vedio"/>
+
+    <item android:id="@+id/navigation_ebook"
+        android:title="Ebooks"
+        android:icon="@drawable/ebook"/>
+
+
+    <item android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/www"/>
+
+    <item android:id="@+id/navigation_rate"
+        android:title="Rate Us"
+        android:icon="@drawable/review"/>
+
+
+        <item android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/share"/>
+
+        <item android:id="@+id/navigation_color"
+            android:title="Color"
+            android:icon="@drawable/rgb"/>
+
+    <item android:id="@+id/navigation_developer"
+        android:title="Developer"
+        android:icon="@drawable/devloper"/>
+
+</menu>

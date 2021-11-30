@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment">
+
+   <ScrollView
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical"
+           tools:ignore="ExtraText">
+
+           <com.smarteist.autoimageslider.SliderLayout
+               android:layout_width="match_parent"
+               android:layout_height="250dp"
+               android:id="@+id/slider"
+               tools:ignore="MissingClass"/>
+
+
+           <TextView
+               android:id="@+id/text"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:layout_marginTop="36dp"
+               android:fontFamily="@font/aclonica"
+               android:text="THE GPA TALES"
+               android:textColor="@color/colorPrimary"
+               android:ellipsize = "marquee"
+               android:fadingEdge = "horizontal"
+               android:marqueeRepeatLimit = "marquee_forever"
+               android:scrollHorizontally = "true"
+               android:singleLine = "true"
+               android:textSize="24dp" />
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="143dp"
+               android:orientation="horizontal"
+               android:layout_marginTop="7dp">
+
+               <ImageView
+                   android:layout_width="110dp"
+                   android:layout_height="110dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="10dp"
+                   android:src="@drawable/logo" />
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginTop="10dp"
+                       android:text="Government Polytechnic Aurangabad"
+                       android:textColor="@color/textColor"
+                       android:textSize="16sp"
+                       android:textStyle="bold" />
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="10dp"
+                       android:layout_marginTop="3dp"
+                       android:text="शासकीय तंत्रनिकेतन,औरंगाबाद"
+                       android:textColor="@color/textColor"
+                       android:textSize="16sp" />
+
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="89dp"
+                       android:layout_marginLeft="10dp"
+                       android:text="(An Autonomous Institute of Govt. of Maharashtra-Estd. In 1955)
+
+All India Council for Technical Education (AICTE) Approved - NBA Accrediated (Five Program(s))"
+                       android:textColor="@color/textColor"
+                       android:textSize="12sp" />
+
+
+               </LinearLayout>
+
+
+           </LinearLayout>
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="@drawable/principleback"
+               android:layout_marginTop="30dp"
+               android:orientation="vertical">
+
+               <de.hdodenhof.circleimageview.CircleImageView
+                   android:layout_width="match_parent"
+                   android:layout_height="100dp"
+                   android:src="@drawable/principle"
+                   android:layout_marginTop="18dp"/>
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"
+                   android:layout_marginTop="10dp"
+                   android:gravity="center"
+                   android:text="Prof.F.A.KHAN"
+                   android:textColor="@color/textColor2"
+                   android:textSize="18sp" />
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_gravity="center"
+                   android:gravity="center"
+                   android:textColor="@color/textColor2"
+                   android:text="B.E.(Civil),FIE,M.Tech (Hons.)(Edu.)LMISTE" />
+
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="start"
+                   android:layout_marginLeft="20dp"
+                   android:layout_marginTop="40dp"
+                   android:text="Principle's Desk"
+                   android:textColor="@color/textColor2"
+                   android:textSize="24sp" />
+
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:fontFamily="@font/roboto_light"
+                   android:layout_marginBottom="30dp"
+                   android:text="@string/About_Collage"
+                   android:textColor="@color/textColor2"
+                   android:textSize="20sp" />
+
+
+
+
+
+
+           </LinearLayout>
+
+
+
+
+
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginTop="36dp">
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:orientation="vertical">
+
+                   <TextView
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Departments"
+                       android:layout_marginTop="20dp"
+                       android:textSize="@dimen/title_size"
+                       android:layout_gravity="center"
+                       android:textColor="@color/colorPrimary"
+                       android:fontFamily="@string/bold" />
+
+                   <com.google.android.material.card.MaterialCardView
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_marginTop="16dp">
+
+                       <LinearLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="wrap_content"
+                           android:orientation="vertical">
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@font/roboto_light"
+                               android:text="Computer Engineering"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="9dp"
+                               android:textSize="@dimen/title_size" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="2dp"
+                               android:background="@color/light_grey">
+
+                           </View>
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:textStyle="bold"
+                               android:fontFamily="@font/roboto_light"
+                               android:text="Information Technology"
+                               android:textColor="@color/textColor"
+                               android:textSize="@dimen/title_size" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="2dp"
+                               android:background="@color/light_grey">
+
+                           </View>
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_margin="8dp"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@font/roboto_light"
+                               android:text="Electronics Engineering"
+                               android:textColor="@color/textColor"
+                               android:textSize="@dimen/title_size" />
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="2dp"
+                               android:background="@color/light_grey"/>
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@font/roboto_light"
+                               android:text="Civil Engineering"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="9dp"
+                               android:textSize="@dimen/title_size" />
+
+                           <View
+                               android:layout_width="match_parent"
+                               android:layout_height="2dp"
+                               android:background="@color/light_grey">
+
+                           </View>
+
+
+                           <TextView
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"
+                               android:layout_gravity="center_horizontal"
+                               android:layout_marginHorizontal="@dimen/text_margin"
+                               android:layout_marginTop="@dimen/text_margin"
+                               android:fontFamily="@font/roboto_light"
+                               android:text="Mechanical Engineering"
+                               android:textColor="@color/textColor"
+                               android:layout_margin="9dp"
+                               android:textSize="@dimen/title_size" />
+
+
+
+                       </LinearLayout>
+
+
+                   </com.google.android.material.card.MaterialCardView>
+
+                   <LinearLayout
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:background="@drawable/visionback"
+                       android:layout_marginTop="10dp"
+                       android:orientation="vertical"
+                       android:elevation="7dp">
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:text="Vision"
+
+                           android:layout_marginTop="10dp"
+                           android:layout_gravity="center"
+                           android:textColor="@color/textColor2"
+                           android:textSize="24sp" />
+
+                       <TextView
+                           android:layout_width="320dp"
+                           android:layout_height="wrap_content"
+                           android:text="@string/Vision"
+                           android:textSize="18dp"
+
+                           android:layout_gravity="center_horizontal"
+                           android:layout_marginHorizontal="@dimen/text_margin"
+                           android:layout_marginTop="@dimen/text_margin"
+                           android:textColor="@color/textColor2"/>
+
+
+                       <ImageView
+                           android:layout_width="200dp"
+                           android:layout_height="200dp"
+                           android:src="@drawable/mission"
+                           android:layout_gravity="center"
+                           android:layout_marginTop="13dp" />
+
+                       <TextView
+                           android:layout_width="wrap_content"
+                           android:layout_height="match_parent"
+                           android:text="Mission"
+                           android:layout_marginTop="10dp"
+                           android:textStyle="bold"
+                           android:layout_gravity="center"
+                           android:textColor="@color/textColor2"
+                           android:textSize="24sp" />
+
+                       <TextView
+                           android:layout_width="320dp"
+                           android:layout_height="wrap_content"
+                           android:layout_gravity="center_horizontal"
+                           android:textSize="18dp"
+                           android:layout_marginBottom="18dp"
+                           android:layout_marginHorizontal="@dimen/text_margin"
+                           android:layout_marginTop="@dimen/text_margin"
+                           android:text="@string/mission"
+                           android:textColor="@color/textColor2" />
+
+
+
+                   </LinearLayout>
+
+
+               </LinearLayout>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:padding="@dimen/text_margin">
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Contact Details"
+                   android:layout_marginTop="36dp"
+                   android:textSize="@dimen/title_size"
+                   android:layout_gravity="center"
+                   android:textColor="@color/colorPrimary"
+                   android:fontFamily="@string/bold"/>
+
+               <TextView
+                   android:layout_width="301dp"
+                   android:layout_height="35dp"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:fontFamily="@font/roboto_light"
+                   android:text="Contact - +91-240- 2353644 (Principal)"
+                   android:textColor="@color/textColor"
+                   android:textSize="14sp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:fontFamily="@font/roboto_light"
+                   android:text="Adress - Osmanpura, P.B. No. Aurangabad – 431005, Maharastra Sate, India"
+                   android:textColor="@color/textColor"
+                   android:textSize="14sp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginHorizontal="@dimen/text_margin"
+                   android:layout_marginTop="@dimen/text_margin"
+                   android:layout_marginBottom="10dp"
+                   android:fontFamily="@font/roboto_light"
+                   android:text="@string/email_principal_gpaurangabad_dtemaharashtra_gov_in"
+                   android:textColor="@color/textColor"
+                   android:textSize="14sp" />
+
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"
+                   android:text="Find our location here"
+                   android:layout_gravity="center_horizontal"
+                   android:textColor="@color/colorPrimary"
+                   android:layout_marginTop="16dp"/>
+
+
+
+               <com.airbnb.lottie.LottieAnimationView
+                   android:id="@+id/map"
+                   android:layout_width="wrap_content"
+                   android:layout_height="200dp"
+                   android:layout_margin="16dp"
+                   android:layout_gravity="center"
+                   app:lottie_autoPlay="true"
+                   app:lottie_loop="true"
+                   app:lottie_rawRes="@raw/find"
+                   />
+
+
+
+           </LinearLayout>
+
+
+
+
+
+
+       </LinearLayout>
+   </ScrollView>
+
+</FrameLayout>
